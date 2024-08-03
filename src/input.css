@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: jetBold;
+    src: url(../assets/fonts/JetBrainsMono-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: jetBoldItalic;
+    src: url(../assets/fonts/JetBrainsMono-Italic-VariableFont_wght.ttf);
+}
+
+
+.slider {
+    width: 100%;
+}
+
+#passwordLength {
+    -webkit-appearance: none;
+    appearance: none;
+    outline: none;
+    width: 100%;
+    height: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+    background: linear-gradient(90deg, #a4ffaf 50%, #18171f 50%);
+}
+
+#passwordLength::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+#passwordLength::-moz-range-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background-color: #e6e5ea;
+    border: none;
+}
+
+#passwordLength:hover::-moz-range-thumb {
+    border: 2px solid #a4ffaf;
+    background-color: #18171f;
+}
+
+.text-noPassword {
+    color: #e6e5ea94
+}
+
+.cursor-not-allowed {
+    cursor: not-allowed;
+}
