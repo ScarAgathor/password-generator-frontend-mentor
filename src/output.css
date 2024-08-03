@@ -779,10 +779,6 @@ video {
   font-weight: 500;
 }
 
-.font-\[18px\] {
-  font-weight: 18px;
-}
-
 .text-almostWhite {
   --tw-text-opacity: 1;
   color: rgb(230 229 234 / var(--tw-text-opacity));
